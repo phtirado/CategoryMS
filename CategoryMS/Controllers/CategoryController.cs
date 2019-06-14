@@ -21,7 +21,7 @@ namespace CategoryMS.Controllers
 
             if(_context.GetCategories.Count() == 0)
             {
-                _context.GetCategories.Add(new Category { Name = "Beer 2" });
+                _context.GetCategories.Add(new Category { Name = "Beer" });
                 _context.SaveChanges();
             }
         }
